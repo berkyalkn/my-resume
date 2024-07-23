@@ -1,0 +1,33 @@
+h1 {
+    color : #373A40;
+    text-align: center;
+}
+
+h2 {
+    color: #373A40;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    
+}
+
+#contact-me {
+    text-align: center;
+}
+
+footer {
+    font-size: 14px;
+    text-align: center;
+    
+}
+
+h3 {
+    color: #373A40;
+    
+}
