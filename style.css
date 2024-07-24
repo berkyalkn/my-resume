@@ -8,15 +8,6 @@ h2 {
     text-align: center;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-    height: 200px;
-    
-}
-
 #contact-me {
     text-align: center;
 }
@@ -31,3 +22,108 @@ h3 {
     color: #373A40;
     
 }
+
+.first-div {
+    height: 150px;
+    background-color: #EEEDEB;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.second-div {
+    height: 200px;
+    margin-top: 30px;
+}
+
+.third-div {
+    height: 200px;
+    margin-top: 30px;
+}
+
+
+.name {
+    width: 280px;
+    margin-right: 300px;
+    padding-top: 10px;
+    padding-left: 20px;
+    
+}
+
+.department {
+    width: 280px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+    padding-left: 7px;
+    padding-top: 15;
+    font-size: 12px;
+
+}
+
+.contact {
+    vertical-align: top;
+    display: inline-block;
+    width:200px;
+    height:200px;
+    font-size: 13px;
+    
+    
+    
+}
+
+.profile {
+    display: inline-block;
+    width:350px;
+    height:200px;
+    float: right;
+    font-size: 13px;
+    
+    
+}
+
+.skills {
+    vertical-align: top;
+    display: inline-block;
+    width:200px;
+    height:200px;
+    font-size: 13px;
+    padding: 8;
+}
+
+.extracurricular {
+    display: inline-block;
+    width:350px;
+    height:200px;
+    float: right;
+    font-size: 13px;
+}
+
+.language {
+    font-size: 13px;
+    width: 200px;
+}
+
+.education {
+    font-size: 13px;
+    width: 200px;
+}
+
+div {
+    border : olid black;
+}
+
+.vertical {
+    border-left: 1px solid black;
+    height: 750px;
+    position:absolute;
+    left: 37%;
+    top: 30%;
+  }
+
+  .vertical2 {
+    border-left: 1px solid black;
+    height: 1px;
+    position:absolute;
+    left: 37%;
+    top: 60%;
+  }
+
