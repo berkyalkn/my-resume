@@ -24,7 +24,7 @@ h3 {
 }
 
 .first-div {
-    height: 150px;
+    height: 175px;
     background-color: #EEEDEB;
     margin-left: 10px;
     margin-right: 10px;
@@ -40,24 +40,22 @@ h3 {
     margin-top: 30px;
 }
 
-
-.name {
-    width: 280px;
-    margin-right: 300px;
-    padding-top: 10px;
-    padding-left: 20px;
-    
+.image {
+    display: inline-block;
+    width: 200px;
+    height: 175px;
 }
 
-.department {
-    width: 280px;
-    margin-right: 300px;
-    margin-bottom: 50px;
-    padding-left: 7px;
-    padding-top: 15;
-    font-size: 13px;
-
+.info {
+    display: inline-block;
+    float: right;
+    width:475px;
+    height: 150px;
+    padding-right: 590px;
+    padding-top: 25px;
 }
+
+
 
 .contact {
     vertical-align: top;
@@ -66,9 +64,6 @@ h3 {
     height:200px;
     font-size: 16px;
     padding-left: 48px;
-    
-    
-    
 }
 
 .profile {
@@ -78,10 +73,6 @@ h3 {
     height:200px;
     font-size: 16px;
     padding-right: 30px;
-    
-    
-
-    
 }
 
 .skills {
@@ -116,15 +107,15 @@ h3 {
 }
 
 div {
-    border : solid black;
+    border : slid black;
 }
 
 .vertical {
     border-left: 1px solid black;
-    height: 750px;
+    height: 950px;
     position:absolute;
     left: 37%;
-    top: 20%;
+    top: 22.5%;
   }
 
   .vertical2 {
