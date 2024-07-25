@@ -31,7 +31,7 @@ h3 {
 }
 
 .second-div {
-    height: 200px;
+    height: 225px;
     margin-top: 30px;
 }
 
@@ -62,16 +62,16 @@ h3 {
     display: inline-block;
     width:335px;
     height:200px;
-    font-size: 16px;
+    font-size: 19px;
     padding-left: 48px;
 }
 
 .profile {
     display: inline-block;
     float: right;
-    width:500px;
+    width:750px;
     height:200px;
-    font-size: 16px;
+    font-size: 19px;
     padding-right: 30px;
 }
 
@@ -79,7 +79,7 @@ h3 {
     display: inline-block;
     width: 335px;
     height:250px;
-    font-size: 16px;
+    font-size: 19px;
     padding-left: 48px;
 }
 
@@ -87,22 +87,22 @@ h3 {
     display: inline-block;
     float: right;
     padding-right: 25px;
-    width:505px;
+    width: 750px;
     height:250px;
-    font-size: 16px;
+    font-size: 19px;
 }
 
 .language {
     margin-top: 50px;
     padding-left: 48px;
-    font-size: 16px;
+    font-size: 19px;
     width: 285px;
     
 }
 
 .education {
     padding-left: 48px;
-    font-size: 16px;
+    font-size: 19px;
     width: 285px;
 }
 
@@ -112,10 +112,10 @@ div {
 
 .vertical {
     border-left: 1px solid black;
-    height: 950px;
+    height: 1000px;
     position:absolute;
     left: 37%;
-    top: 22.5%;
+    top: 23%;
   }
 
   .vertical2 {
