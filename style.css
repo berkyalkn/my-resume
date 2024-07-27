@@ -8,6 +8,22 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    color: #373A40;
+    font-size: 28px;
+    
+}
+
+.info > h1 {
+    font-size: 40px;
+    padding-right: 150px;
+}
+
+.info > h2 {
+    font-size: 20px;
+    padding-right: 135px;
+}
+
 #contact-me {
     text-align: center;
 }
@@ -18,39 +34,38 @@ footer {
     
 }
 
-h3 {
-    color: #373A40;
-    
-}
+
 
 .first-div {
-    height: 175px;
+    height: 200px;
     background-color: #EEEDEB;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 .second-div {
-    height: 225px;
-    margin-top: 30px;
+    height: 275px;
+    margin-top: 100px;
 }
 
 .third-div {
-    height: 250px;
+    height: 275px;
     margin-top: 30px;
 }
 
 .image {
     display: inline-block;
-    width: 200px;
-    height: 175px;
+    position: relative;
+    width: 250px;
+    height: 200px;
 }
 
 .info {
     display: inline-block;
-    float: right;
-    width:475px;
-    height: 150px;
+    position: absolute;
+    left: 300px;
+    width:550px;
+    height: 175px;
     padding-right: 590px;
     padding-top: 25px;
 }
@@ -58,52 +73,53 @@ h3 {
 
 
 .contact {
-    vertical-align: top;
     display: inline-block;
-    width:335px;
-    height:200px;
-    font-size: 19px;
-    padding-left: 48px;
+    width:480px;
+    height:275px;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-left: 50px;
 }
 
 .profile {
     display: inline-block;
     float: right;
     width:750px;
-    height:200px;
-    font-size: 19px;
-    padding-right: 30px;
+    height:275px;
+    font-size: 20px;
+    padding-right: 100px;
 }
 
 .skills {
     display: inline-block;
-    width: 335px;
-    height:250px;
-    font-size: 19px;
-    padding-left: 48px;
+    width: 480px;
+    height:275px;
+    font-size: 20px;
+    padding-left: 50px;
 }
 
 .extracurricular {
     display: inline-block;
     float: right;
-    padding-right: 25px;
+    padding-right: 100px;
     width: 750px;
-    height:250px;
-    font-size: 19px;
+    height:275px;
+    font-size: 20px;
 }
 
 .language {
     margin-top: 50px;
-    padding-left: 48px;
-    font-size: 19px;
-    width: 285px;
+    padding-left: 50px;
+    font-size: 20px;
+    width: 480px;
+    height: 200px;
     
 }
 
 .education {
-    padding-left: 48px;
-    font-size: 19px;
-    width: 285px;
+    padding-left: 50px;
+    font-size: 20px;
+    width: 480px;
 }
 
 div {
@@ -112,10 +128,10 @@ div {
 
 .vertical {
     border-left: 1px solid black;
-    height: 1000px;
+    height: 1175px;
     position:absolute;
     left: 37%;
-    top: 23%;
+    top: 300px;
   }
 
   .vertical2 {
