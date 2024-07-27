@@ -1,9 +1,15 @@
+
+
 h1 {
+    font-size: 40px;
+    padding-right: 150px;
     color : #373A40;
     text-align: center;
 }
 
 h2 {
+    font-size: 20px;
+    padding-right: 135px;
     color: #373A40;
     text-align: center;
 }
@@ -11,17 +17,48 @@ h2 {
 h3 {
     color: #373A40;
     font-size: 28px;
-    
 }
 
-.info > h1 {
-    font-size: 40px;
-    padding-right: 150px;
+.first-div {
+    height: 200px;
+    background-color: #EEEDEB;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.info > h2 {
+.info {
+    display: inline-block;
+    position: absolute;
+    left: 300px;
+    width:550px;
+    height: 175px;
+    padding-right: 590px;
+    padding-top: 25px;
+}
+
+.image {
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    height: 200px;
+}
+
+.second-div {
+    height: 275px;
+    margin-top: 100px;
+}
+
+.contact {
+    display: inline-block;
+    width:480px;
+    height:275px;
     font-size: 20px;
-    padding-right: 135px;
+    padding-left: 50px;
+}
+
+.icon {
+    width: 22px;
+    height: 22px;
 }
 
 .contact > div {
@@ -35,67 +72,6 @@ h3 {
     margin: 6px;
 }
 
-
-#contact-me {
-    text-align: center;
-}
-
-footer {
-    font-size: 14px;
-    text-align: center;
-    
-}
-
-
-
-.first-div {
-    height: 200px;
-    background-color: #EEEDEB;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.second-div {
-    height: 275px;
-    margin-top: 100px;
-}
-
-.third-div {
-    height: 275px;
-    margin-top: 30px;
-}
-
-.image {
-    display: inline-block;
-    position: relative;
-    width: 250px;
-    height: 200px;
-}
-
-.info {
-    display: inline-block;
-    position: absolute;
-    left: 300px;
-    width:550px;
-    height: 175px;
-    padding-right: 590px;
-    padding-top: 25px;
-}
-
-
-.contact {
-    display: inline-block;
-    width:480px;
-    height:275px;
-    font-size: 20px;
-    padding-left: 50px;
-}
-
-.icon {
-    width: 30px;
-    height: 30px;
-}
-
 .profile {
     display: inline-block;
     float: right;
@@ -103,6 +79,11 @@ footer {
     height:275px;
     font-size: 20px;
     padding-right: 100px;
+}
+
+.third-div {
+    height: 275px;
+    margin-top: 30px;
 }
 
 .skills {
@@ -137,10 +118,6 @@ footer {
     width: 480px;
 }
 
-div {
-    border : soid black;
-}
-
 .vertical {
     border-left: 1px solid black;
     height: 1175px;
@@ -148,12 +125,9 @@ div {
     left: 37%;
     top: 300px;
   }
-
-  .vertical2 {
-    border-left: 1px solid black;
-    height: 1px;
-    position:absolute;
-    left: 37%;
-    top: 60%;
-  }
+  
+  footer {
+    font-size: 17px;
+    text-align: center;
+}
 
