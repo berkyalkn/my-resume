@@ -24,6 +24,18 @@ h3 {
     padding-right: 135px;
 }
 
+.contact > div {
+    width: 475px;
+    height: 52px;
+    font-size: 22px;
+}
+
+
+.contact > div > p{
+    margin: 6px;
+}
+
+
 #contact-me {
     text-align: center;
 }
@@ -71,14 +83,17 @@ footer {
 }
 
 
-
 .contact {
     display: inline-block;
     width:480px;
     height:275px;
     font-size: 20px;
-    padding-top: 50px;
     padding-left: 50px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
 }
 
 .profile {
@@ -123,7 +138,7 @@ footer {
 }
 
 div {
-    border : slid black;
+    border : soid black;
 }
 
 .vertical {
