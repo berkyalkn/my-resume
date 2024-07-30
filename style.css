@@ -5,6 +5,9 @@ h1 {
     padding-right: 150px;
     color : #373A40;
     text-align: center;
+    font-family: "Maven Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 h2 {
@@ -12,11 +15,18 @@ h2 {
     padding-right: 135px;
     color: #373A40;
     text-align: center;
+    font-family: "Maven Pro", sans-serif;
+    font-family: "Maven Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 h3 {
     color: #373A40;
     font-size: 28px;
+    font-family: "Maven Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .first-div {
@@ -139,7 +149,4 @@ h3 {
     text-align: center;
 }
 
-div {
-    border: solid black;
-}
 
