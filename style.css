@@ -1,152 +1,122 @@
 
 
-.main-first-container {
-    display: flex;
-    gap: 5rem;
-    width: 98%;
-    flex-direction: row;
-    margin-top: 50px;
-    background-color: #EEEDEB;
-    height: 35vh;
-    min-height: 275px;
-    border-radius: 20px;
-}
-
-.info {
-    flex-basis: 100%;
-    margin-top: 20px;
-    font-family: "Maven Pro", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    color: #373A40;
-    align-self: center;
+.container {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 0.75fr 1fr 1fr 0.5fr 0.5fr 0.10fr;
+    width: 100%;
+    height: 100vh;
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 50px;
     padding: 0;
     font-weight: bold;
 }
 
 h2 {
-   font-size: 25px;
+   font-size: 30px;
    padding: 0;
    font-weight: bold;
-}
-
-.image {
-    width: 300px;
-    height: 275px;
-    flex-basis: 100%;
-    border-radius: 12%;
-}
-
-.main-second-container {
-    display: inline-flex;
-    flex-direction: row;
-    margin-top: 100px;
-    gap: 50px;
-    width: 100%;
-    height: 100%;
+   padding-left: 2px;
 }
 
 h3 {
     color: #373A40;
-    font-size: 28px;
+    font-size: 35px;
     font-family: "Maven Pro", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
 
+h4 {
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    color: #373A40;
+}
 
-.third-container {
-    display: flex;
-    flex-direction: column;
-    gap: 5rem;
-    width: 70%;   
+.info {
+    grid-column: span 2;
+    background-color: #EEEDEB;
+    border-radius: 25px;
+    padding-left: 80px;
+    font-family: "Maven Pro", sans-serif;
+    color: #373A40;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .contact {
-    flex: 1;
-    padding-bottom: 20px;
-    padding-left: 50px;
+    grid-area: 2 / 1 / 3 / 2;
+    margin-top: 75px;
+    padding-left: 75px;
     border-bottom: solid gray;
+    border-right: solid gray;
     font-size: 25px;
-}
-
-.skills {
-    flex: 1;
-    padding-left: 50px;
-    font-size: 25px;
-    
-}
-
-.language {
-    flex: 1;
-    padding-bottom: 20px;
-    padding-left: 50px;
-    font-size: 25px;
-    border-bottom: solid gray;
-}
-
-.education {
-    flex: 1;
-    padding-bottom: 20px;
-    padding-left: 50px;
-    font-size: 25px;
-    border-bottom: solid gray;
-    
-}
-
-.icon {
-    width: 25px;
-    height: 25px;
 }
 
 .contact > p{
     padding: 5px;
 }
 
-
-.fourth-container {
-    display: flex;
-    flex-direction: column;
-    gap: 5rem;
-    width: 90%;
-}
-
-
-.skills  li {
-    padding: 4px;
-}
-
-.extracurricular {
-    flex: 1;
-    font-size: 25px;
+.icon {
+    width: 26px;
+    height: 26px;
+    padding-right: 8px;
 }
 
 .profile {
-    flex: 1;
+    grid-area: 2 / 2 / 3 / 3;
     font-size: 25px;
-}
-
-.profile > p {
-    padding-bottom: 110px;
+    margin-top: 75px;
+    padding-left: 50px;
     border-bottom: solid gray;
-    
 }
 
-  footer {
-    font-size: 20px;
+.skills {
+    grid-area: 3 / 1 / 4 / 2;
+    padding-left: 75px;
+    font-size: 25px;
+    border-right: solid gray;
+}
+
+.skills  li {
+    padding: 5px;
+}
+
+.extracurricular {
+    grid-area: 3 / 2 / 4 / 3;
+    font-size: 25px;
+    padding-left: 50px;
+}
+
+.language { 
+    padding-bottom: 25px;
+    padding-left: 75px;
+    font-size: 25px;
+    border-bottom: solid gray;
+    border-right: solid gray;
+}
+
+.language li {
+    padding: 5px;
+}
+
+.education {
+    grid-area: 5 / 1 / 6 / 2;
+    padding-bottom: 25px;
+    padding-left: 75px;
+    font-size: 25px;
+    border-right: solid gray;
+}
+
+.footer {
+    grid-area: 6 / 1 / 7 / 3;
+    font-size: 22px;
     text-align: center;
 }
 
-@media (max-width: 675px) {
-    .main-second-container {
-      flex-direction: column;
-      height: 100%;
-    }
-  }
 
 
 
