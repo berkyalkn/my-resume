@@ -85,6 +85,12 @@ h4 {
     padding: 5px;
 }
 
+#more {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
 .extracurricular {
     grid-area: 3 / 2 / 4 / 3;
     font-size: 25px;
